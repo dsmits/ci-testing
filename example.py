@@ -11,6 +11,5 @@ def subtract(a, b):
     return a + b  # <--- fix this 
 
 
-# uncomment the following test
-#def test_subtract():
-#    assert subtract(2, 3) == -1
+def test_subtract():
+    assert subtract(2, 3) == -1
